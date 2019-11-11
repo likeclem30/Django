@@ -1,0 +1,19 @@
+<html>
+    <h1> The text has {{count}} words counted</h1>
+    <a href="{% url 'home' %}">Start Again</a>
+    <br>
+    <h1>Text Entered:</h1>
+    {{fulltextkey}}
+    <br/>
+    <br/>
+    {{wordDictionary}}
+
+    <br/>
+    <h1>words Count:</h1>
+    <br/>
+    {% for word,counted in wordDictionary.items %}
+    Found: {{word}}, Total: {{counted}} <br>
+    {% endfor %}
+
+    
+</html>

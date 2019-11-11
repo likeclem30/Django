@@ -1,0 +1,12 @@
+<html>
+    <h1>Word Count</h1>
+    <br>
+    <a href="{% url 'about' %}">About Us</a>
+    <!--{{title}} -->
+    <form action="{%url 'count' %}">
+        <textarea cols="40" rows="5" name="fulltext">
+        </textarea>
+        <br/>
+        <input type="submit" name="Submit" value="Submit" />
+    </form>
+</html>
