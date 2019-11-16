@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+        {% load staticfiles %}
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>William Resume</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+  
+
+  <!-- Custom styles for this template -->
+  
+  <link href="{% static 'css/resume.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">William Aaron</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'images/me.jpg' %}" alt="William Aaron">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+            <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{% url 'engineer' %}">Home</a>
+                  </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">View Curiculum Vitae</a>
+        
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">William
+          <span class="text-primary">Aaron</span>
+        </h1>
+        <div class="subheading mb-5">11 James Brown Street ·First Avenue,Gwarimpa,Abuja· (234) 803-583-7542 ·
+          <a href="mailto:likeclem30@gmail.com">likclem30@gmail.com</a>
+        </div>
+        <p class="lead mb-5">An Accomplished Software Engineer/Manager with 10years experience in use of Oracle Technology,Big Data,M.L,Java,Python,PHP and BlockChain Technology for both complex and robust system design, development and implementation. I'm seeking a challenging career opportunity in information Technology.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/william-aaron-9b412280/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/likeclem30/">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/aaron_william_c">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software/DevOps Engineer</h3>
+            <div class="subheading mb-3">Hulhude Int’l Nigeria-
+                <a href="{% url 'project_index' %}" >Portfolio</a></div>
+            <marquee direction="up" scrollamount="2" height="300">
+            <p>•	Developed & maintained fully auto-scale infrastructure using Python, delivering applications for clients that are able to rapidly scale up and down based on the load and internal information. Maximizing available resources.</p>
+            <p>•	Developed & Maintain Clients Solutions (Farmers services, Supply chain Services, Government Supports etc.) using Docker Swarm, kubernetes, MySQL database, PLSQL, html5, JavaScript, PHP, Python, CSS, Django, SQL etc.</p>
+            <p>•	Created Mobile Applications in React-Native:-JavaScript, CSS, HTML5and JQuery, increasing the performance by 45%. </p>
+            <p>•	Responsibility for Setup, operations and stability of 67 client’s servers (Debian, Ubuntu, Oracle-Linux), managed by Puppet/Hiera/Ansible</p>
+            <p>•	Monitoring system based on Docker and Big Data (HBase, Apache Hadoop) </p>
+            <p>•	Development / operations (DevOps) of monitoring systems for all client’s infrastructure </p>
+            <p/>•	Monitoring of production environment
+            <p/>•	Used technologies:  Docker, Python, Linux, bash, AWS, Puppet, Ansible, Jenkins, Jira
+            <p/>•	Continuous Development, Deployment, Integration and Delivery. Service Optimization and maintenance, scaling up services and infrastructure
+           <p/>•	Built, implemented and maintained many user-friendly applications & back-end services using Python, SQL, JavaScript, PLSQL, React-Native, PHP and JQuery, demonstrating service-oriented architecture and focus on client’s needs.  
+
+           <p/>•	Data mining, visualization, Data transformation and interpretation, big data using Apache Hadoop, Python,
+
+           <p/>•	Developed application that interface with MySQL, PostgreSQL databases and generate email and SMS notification.
+
+          <p/>•	Image and Video processing using python3 using Jupiter notebook, Ipython, Django, flask etc.
+          <p/>•	Implemented binning, data wrangling: cleaning, transforming, merging and reshaping data frames
+          <p/>•	Docker node Clusters and reverse proxy
+          <p/>•	Integration to SMS, USSD and payment processing platform to mobile network operators(MNO)
+          <p/>•	Developed application that interface with MySQL, PostgreSQL databases and generate email and SMS notification.
+          <p>•	Development / operations (DevOps) of monitoring systems for all client’s infrastructure </p>
+
+          </marquee>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Web and Mobile Developer</h3>
+            <div class="subheading mb-3">TutorCentral-New York. Remote Staff- 
+                    <a href="{% url 'project_index' %}" >Portfolio</a>
+            </div>
+            <marquee direction="up" scrollamount="2" height="300">
+            <p>•	Developed & maintained fully auto-scale infrastructure using Python, delivering applications for clients that are able to rapidly scale up and down based on the load and internal information. Maximizing available resources.</p>
+            <p/>•	Built, implemented and maintained Agrikore Block-chain Integration Interface and Mobile Application extension for Cellulant Mobile wallet Platform using Python, flask, Mongodb, Nodejs JavaScript, PLSQL, React-Native, PHP 
+            <p/>•	Block-chain Platform Smart contracts and integrating into legacy financial System
+            <p/>•	Development/deployment and monitoring of new Dockerized infrastructure
+            <p/>•	Docker support for Go/NodeJS/Python development team
+           </p> •	Used technologies: Docker, SWARM, Kubernetes, Puppet, iSCSI
+           </p> • Database Administration and Performance Turning
+         </marquee>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2017 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software and Mobile Engineer</h3>
+            <div class="subheading mb-3">Cellulant Nigeria 
+                    <a href="{% url 'project_index' %}" >Portfolio</a>
+            </div>
+            <marquee direction="up" scrollamount="2" height="300" >
+          <p/>•	Developed & Maintain the GES Mobile eWallet Platform that serves 15million customers(farmers) in Nigeria and Liberia using Oracle database, PLSQL, html5, JavaScript, PHP, Python, java, CSS and SQL.
+          <p/>•	Average 7 millions real wallet platform (Web, USSD,SMS,IVR) users per annual and 100k Transaction request per day, agile in-house development, Test Driven Development, large-scale web services with high availability
+
+          <p/>•	Responsibility for the server availability, monitoring and improvements of (physical, virtual) servers
+
+          <p/>•	Used technologies: Linux, CentOS, Windows, MySQL (with replications), Apache, Nginx, IIS, HTML, JavaScript, CSS, load balancer NetScaler/HAProxy, Varnish
+
+          <p/>•	Created Mobile Applications in Sqlite,JavaScript, CSS, HTML5, React-Native and JQuery, increasing the performance by 35%.
+
+          <p/>•	Forecast & optimized cloud infrastructure costs, reducing 50% of the total expenses related to the operations.
+
+          <p/>•	Built, implemented and maintained many user-friendly applications & back-end services using Java, Python, SQL, JavaScript, PLSQL, React-Native, PHP and JQuery, demonstrating service-oriented architecture and focus on client’s needs.  
+
+         <p/>•	Developed application that interface with Oracle and MySQL databases and generate email and SMS notification.
+
+        <p/>•	Block-chain Platform Development and Integration using Node.js, JavaScript, PHP, Python, SQL
+      </marquee>
+
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Novermber 2011 - December 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">I.T Manager/Web Developer</h3>
+            <div class="subheading mb-3">Challydoff Limited
+                    <a href="{% url 'project_index' %}" >Portfolio</a>
+            </div>
+            <marquee direction="up" scrollamount="2" height="300">
+            <p/>•	Manage and execute project within schedules, scope and budget.
+            <p/>•	Tract software project milestones, deliverables and quality, Communication with Clients and project teams as necessary to keep them abreast of project progress.
+            <p/>•	Create and manage work breakdown structures of projects.
+           </p>•	Assess risk factors and develop strategies for response.
+           <p/>•	Recruited and interviewed staff for I.T projects
+           <p/>•	Web-development using html, CSS, JavaScript, java, Node.js, PHP, SQL
+           <p/>•	Enterprise Database system development
+           <p/>•	Enterprise Resource Planning development and deployment
+           <p/> Software and Databse Solution Trainer
+         </marquee>
+         </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2010 - Novermber 2011</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Web/Java/Oracle Apex/PLSQL Instructor</h3>
+            <div class="subheading mb-3">Legacy Computer Institute 
+                    <a href="{% url 'project_index' %}" >Portfolio</a>
+            </div>
+            <marquee direction="up" scrollamount="2" height="300">
+
+            <p/>•	Taught Student Java, PHP, html, PLSQL and to use Oracle and MySQL databases
+            <p/>•	Name “Instructor of the year” Taught over 400 Students.
+          <p/>•	Guide Student to developer Final year software work.
+          <p/>  •	Develop and maintain inventory and accounting System for Dikk-Agro-allied Company.
+          <p/>  •	Trained over 300 Public servants on Computer operations and Microsoft office applications.
+
+         </marquee>
+         </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2008 - December 2010</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Federal University of Technology,Minna</h3>
+            <div class="subheading mb-3">Bachelor of Technology</div>
+            <div>Mathematics/Computer Science </div>
+
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2002 - Novermber 2007</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Ahmadu Bello University,Zaria</h3>
+            <div class="subheading mb-3">Master Degree</div>
+            <div>information Management </div>
+          
+        </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2009 - June 2011</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+
+          <li class="list-inline-item">
+            <i class="fas fa-database"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-ethereum"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-etherium"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-docker"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a Software and DevOps Engineer, I enjoy Playing football and biking. I also like to hangingout with friends discussing issues of all kinds.</p>
+        <p class="mb-0">When forced indoors, I follow a number of sci-fi,Super-hero and fantasy genre movies and television shows, I am an aspiring commedian , and I spend a large amount of my free time exploring the latest technology advancements in the Back-end web development and Artificial Intelligients.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Curiculum Vitae</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+           <a href="https://drive.google.com/open?id=1wy0WsDGHTqXF0Sqg3Cyex_fdHADj8X5k">View My CV</a> 
+           <p>See my<a href="{% url 'project_index' %}" >Portfolio</a></p>
+        </li>
+          <li>
+
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}" ></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}" ></script>
+  
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/resume.min.js' %}" ></script>
+
+</body>
+
+</html>
